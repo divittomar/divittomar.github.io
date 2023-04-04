@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+}
+
+.har{
+    color: rgb(255, 0, 0);
+    background-color: #0085ff;
+    font-size: 45px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 45px;
+    margin: 504px;
+    margin-top: 0%;
+    box-shadow: 19px 19px 32px;
+    animation-name: harya;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    
+}
+@keyframes harya{
+    0%{
+        transform: translateX(100%);
+    }
+    from{
+        box-shadow: 23px 23px 65px;
+        color: red;
+    }
+    to{
+        box-shadow: 43px 43px 98px;
+        color: black
+    }
+}
+.har li{
+    list-style: none;
+    color:red ;
+}
+.har li a{
+    text-decoration: none;
+    color: rgb(0, 104, 52);
+    font-size: 54px;
+    padding: 12px;
+}
+.hary h1{
+    background-color: red;
+    font-size: 94px;
+    display: flex;
+    justify-content: center;
+}
+.hary {
+    animation-name: haryan;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes haryan{
+    0%{
+        transform: translateY(100%)
+    }
+}
+.hello{
+    margin: 56px;
+}

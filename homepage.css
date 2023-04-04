@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0%;
+   
+}
+
+#home{
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 433px;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    animation-name: animenation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes animenation{
+    0%{
+        transform: translateY(100%);
+    }
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -9;
+    opacity: 100
+
+}
+.list{
+    display: flex;
+    margin-left: 23px;
+    padding: 15px;
+}
+#home ul li {   
+    list-style: none;
+    font-size: 1.7rem;
+}
+#home ul li a{
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    color:rgb(255, 153, 0);
+    padding: 15px 20px;
+    display: flex;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.list li :hover{
+    background-color: white;
+    color: rgb(190, 129, 129); 
+}
+#hello{
+    align-items: center;
+    justify-content: center;
+    border: 9px solid black;
+    border-radius: 23px;
+}
+.account{
+    margin-top: 45px;
+    margin-left: 85px;
+    background-image:url("location1.jpg");
+    font-size: 73px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 23px ;
+    border: 3px solid blue;
+    height: 545px;
+    width: 1500px;  
+    animation-name: divit10;
+    animation-duration: 2s;
+    animation-iteration-count:100;
+   /* display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 23px ;
+   border: 3px solid blue; */
+   
+}
+    @keyframes divit10 {
+        from{
+   
+    color: rgb(255, 255, 255);
+        }
+        to {
+    
+            color: rgb(255, 0, 0);
+            animation-name: anime;
+        }}
+    @keyframes anime{
+        from{
+            color: black;
+        }
+        to{
+            color: yellow;
+        }}
+
+    
+.acc{
+    display:flex;
+    margin-top: 45px;
+    margin-left: 85px;
+    background-image:url("location1.jpg");
+    font-size: 73px;
+    animation-name: NAME;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes NAME{
+    0%{
+        transform: translateX(100%);
+    }
+}
+
+.state{
+    color: white;
+    list-style: none;
+    font-size: 34px;
+    background-color: pink;
+}
+.your{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: roll;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    border: 2px solid rgb(255, 153, 0);
+    border-radius: 54px;
+    box-shadow: 10px 10px 20px;
+    margin: 534px;
+    margin-top: 0%;
+}
+@keyframes roll{
+    0%{
+        transform: translateZ(100%);
+    }
+}
+
+#h2{justify-content: center;
+    display: flex;
+    font-size: 54px;
+    color: chartreuse;
+    border: 9px solid red;
+}
